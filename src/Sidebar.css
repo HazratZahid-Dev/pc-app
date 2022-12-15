@@ -1,0 +1,134 @@
+
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+.sidebar{
+    width: 29%;
+    background-color: white;
+     /* overflow: scroll;  */
+     /* overflow-x: hidden; */
+      overflow-y: scroll; 
+
+     
+}
+
+.sidebar__header{
+justify-content: space-between; 
+padding: 10px;
+background: rgb(223, 223, 223);
+position: sticky;
+
+ 
+}
+.header__right{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+}
+.sidebar__search{
+    /* background: grey; */
+    height: 40px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    background-attachment: #f6f6f6;
+
+
+}
+.search__container{
+    display: flex;
+    height: 30px;
+    /* background: white; */
+    padding: 17px;
+    padding-left: 15px;
+    width: 100%;
+    /* border-right: 20px; */
+    border-radius: 5px;
+    align-items: center;
+    /* gap: 20px; */
+    gap: 5px;
+    background: rgb(223, 223, 223);
+}
+.header__search{
+    padding: 0px;
+    background: rgb(223, 223, 223);
+    outline: none;
+}
+
+
+.chats__image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+@media(max-width:900px){
+    .header__search{
+        width: 40%;
+    }
+
+}
+::placeholder{
+    font-size: 13px;
+    color: rgb(73, 72, 72);
+}
+.header__search-icon{
+    color: gray;
+    
+}
+
+.sidebar__chats{
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    border-bottom: 1px solid rgb(188, 184, 184);
+  
+  
+   
+  
+    
+}
+
+.sidebar__chats:hover{
+   
+    background: rgb(181, 179, 179);
+    cursor: pointer;
+
+    
+}
+/* .scroll{
+      overflow-y: scroll; 
+      overflow: hidden;
+      height: 500px;
+      width: 300px;
+
+} */
+.Avatar{
+    /* width: 10px;
+    height: 30px; */
+}
+
+.scroll{
+    /* overflow: scroll;
+
+    overflow-x: hidden; */
+}
+

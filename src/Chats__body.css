@@ -1,0 +1,22 @@
+.chats__body{
+    background: url('../src/images/unnamed.png');
+    width: 71vw;
+    height: 80vh;
+    display: grid;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    opacity: 1;
+    /* background: rgb(73, 107, 73); */
+    
+}
